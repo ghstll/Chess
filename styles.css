@@ -31,5 +31,25 @@ body{
     transition: 0.2s ease-in-out;
     cursor: pointer;
     user-select: none;
+    width: 1fr;
+    height: 1fr;
     border: black thin solid;
+}
+
+
+.lightSquareRow:nth-child(odd){
+    background-color: #F0D9B5
+
+}
+
+.lightSquareRow:nth-child(even){
+    background-color: #B58863;
+}
+
+.darkSquareRow:nth-child(odd){
+    background-color: #B58863;
+}
+
+.darkSquareRow:nth-child(even){
+    background-color: #F0D9B5;
 }
